@@ -12,6 +12,7 @@ public class CheckAdmin {
 	String uname = "root";
 	String pwd = "r00t";
 
+	//function to check credentials of Admin
 	public boolean checkCreds(String aName, String aPwd) {
 
 		String query = "SELECT * FROM ADMIN WHERE NAME = '" + aName + "'";
