@@ -10,6 +10,8 @@ public class CheckUser {
 	String url = "jdbc:mysql://localhost:3306/stockmanagement";
 	String uname = "root";
 	String pwd = "r00t";
+	
+	//function to check credentials of User
 	public boolean checkCreds(String aName, String aPwd) {
 
 		String query = "SELECT * FROM USER WHERE NAME = '" + aName + "'";
